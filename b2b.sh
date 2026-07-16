@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
 su -
-apt isntall ufw openssh-server sudo libpam-pwquality -y
+apt install ufw openssh-server sudo libpam-pwquality -y
 
 #configure ssh
 ufw enable
