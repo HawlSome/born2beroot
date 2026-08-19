@@ -30,6 +30,7 @@ gecoscheck = 1
 retry = 3
 enforce_root
 "
+sudo apt install libpam-pwquality
 echo "$rules" > /etc/security/pwquality
 
 #configure sudo
